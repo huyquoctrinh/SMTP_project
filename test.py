@@ -1,1 +1,2 @@
-import base64
+from shutil import copyfile
+copyfile("save_img.png","huy.png")

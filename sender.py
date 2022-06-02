@@ -1,7 +1,9 @@
 import sys
 from smtplib import SMTP_SSL as SMTP      
 from email.mime.text import MIMEText
-
+from email.mime.image import MIMEImage
+from email.mime.multipart import MIMEMultipart
+import os
 class Sender:
     def __init__(self,uname,passw):
         self.SMTP_Host = 'smtp.gmail.com'
@@ -23,4 +25,16 @@ class Sender:
         except Exception as error:
             print("Some thing wrong")
             print(error)
+    def image_send(self,content,ImgFileName,subject,receivers):
+        with open(ImgFileName, 'rb') as f:
+            img_data = f.read()
 
+        msg = MIMEMultipart()
+        msg['Subject'] = subject
+        msg['From'] = self.sender 
+        text = MIMEText(content)
+        msg.attach(text)
+        image = MIMEImage(img_data, name=os.path.basename(ImgFileName))
+        msg.attach(image)
+        self.conn.sendmail(self.sender,receivers, msg.as_string())
+        self.conn.quit()
