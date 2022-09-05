@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Quattro;
+    src: url('../Avatar/SVN-Quattrocento Bold.otf');
+}
+.button {
+    border: 0.1rem solid white;
+    color:white;
+    padding: 1rem 3rem;
+    font-family: Quattro;
+	font-size: 1rem;
+    position: relative;
+	display: block;
+    margin:1rem;
+    background-color: black;
+    border-radius: 20rem;
+    width: 20rem;
+}
+.button:hover{
+    background-color: rgb(148, 148, 230);
+}
+.listButton{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.intro_text{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.intro{
+    font-family: Quattro;
+    font-size:1rem;
+}
+.Chamngon{
+    font-family: Quattro;
+    font-size:1rem;
+}

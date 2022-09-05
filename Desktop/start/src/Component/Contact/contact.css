@@ -1,0 +1,6 @@
+.list_contact{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}

@@ -1,0 +1,22 @@
+.Home{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.mainPage{
+    background: linear-gradient(to right, #C2DED1 0%,#C2DED1 25%,#A0D995 25%,#A0D995 100%);
+    background-size: cover;
+}
+.list_Achie{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media only screen and (max-width:700px){
+    .list_Achie{
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width:700px){
+    .Home{
+        grid-template-columns: auto;
+    }
+}

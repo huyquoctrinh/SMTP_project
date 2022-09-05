@@ -1,0 +1,25 @@
+export const data=[{
+    id:1,
+    img_src:"https://cdn-icons-png.flaticon.com/512/59/59439.png",
+    src:"https://www.facebook.com/nguyen.anhkhoa.121772/",
+},
+    {id:2,
+        img_src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/2048px-Instagram_simple_icon.svg.png",
+        src:"https://www.instagram.com/khoanguyenanh39/",
+    },
+    {
+    id:3,
+    img_src:"https://cdn-icons-png.flaticon.com/512/25/25231.png?w=360",
+    src:"https://github.com/khoaking2002?fbclid=IwAR17feOuwGMbb-1XjJ6V_eD3MvGUy3g7cTARhcdh_iYz3xpyQCaKL0eCiuk",
+    },
+    {
+        id:4,
+        img_src:"https://cdn-icons-png.flaticon.com/512/1946/1946552.png",
+        src:"https://www.tiktok.com/@aks0912",
+    },
+    {
+        id:5,
+        img_src:"https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png",
+        src:"https://www.linkedin.com/in/nguy%E1%BB%85n-anh-khoa-13b32a217/"
+    }
+];
