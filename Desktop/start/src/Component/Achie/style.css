@@ -6,34 +6,25 @@
     background-color: #F1EFDC;
     border-color:black;
     border-radius: 2rem;
-    width: 29rem;
+    width: 50%;
     margin-top: 5rem;
     margin-left: 5rem;
 }
 .main_image{
-    width:27rem;
-    margin-top: 1rem;
-    margin-left: 1rem; 
-    border-radius: 2rem;
-}
-.Achie_Sub{
-    display: grid;
-    grid-template-columns: 30% 70%;
+    width:90%;
+    margin-top: 5%;
+    margin-left: 5%; 
+    border-radius: 15%;
 }
 .caption{
-    font-size: 2rem;
+	padding-left: 3rem;
+    font-size: 200%;
 }
 .main_text{
     margin-top: 0rem;
     word-wrap: break-word;
-    padding-right: 1rem;
+    padding-right: 5%;
     padding-left: 2rem;
-}
-.avar_image{
-    height: 3.7rem;
-    border-radius: 3.7rem;
-    margin-top: 1rem;
-    margin-left: 2rem;
 }
 .link{
     margin-top: 1rem;
@@ -42,7 +33,6 @@
     height: 2.5rem;
     align-items: center;
     border-radius: 1.5rem;
-    margin-left: 9rem;
     margin-bottom: 2rem;
 }
 .Achi_card:hover{

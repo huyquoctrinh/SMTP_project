@@ -8,7 +8,6 @@ const Achie=(props)=>{
                 <img className="main_image" src={props.src1} alt={props.alt1}></img>
 			</div>
 			<div className="Achie_Sub">
-                <img className="avar_image" src={AK} alt={props.alt2}></img>
                 <div className="Achie_text">
                     <h1 className="caption">{props.caption}</h1>
                 </div>

@@ -12,7 +12,7 @@
 }
 .avar{
     border-radius: 2rem;
-    width: 30rem;
+    width: 40%;
     margin-top: 2rem;
     margin-left: 10rem;
     border: 0.5rem solid white;
@@ -27,17 +27,17 @@
 }
 .welcome{
     font-family: Quattro;
-    font-size: 2rem;
+    font-size: 200%;
     margin-top: 4rem;
     margin-left:2rem ;
 }
 .name{
     font-family: Austronut;
-    font-size:7rem;
+    font-size:700%;
     margin-left:8rem; 
 }
 .Card{
-    background-color: white;
+    background-color: #C2DED1;
     border-radius: 2rem;
     margin-left: 15rem;
     width:28rem;
@@ -53,24 +53,4 @@
     animation-name: example;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-}
-@media only screen and (max-width:700px){
-    .avar{
-        width:20rem
-    }
-}
-@media only screen and (max-width:700px){
-    .welcome{
-        font-size: 1rem;
-    };
-}
-@media only screen and (max-width:700px){
-.name{
-    font-size: 3rem;
-}
-}
-@media only screen and (max-width:700px){
-    .Card{
-        width: 20rem;
-    }
 }
